@@ -76,6 +76,34 @@
             </button>
         </div>
 
+        <script> 
+
+            (() => {
+                const roleText = document.getElementById('roleText');
+
+                if (!roleText) {
+                    return;
+                }
+
+                const roles = ['Web Developer', 'Graphic Designer'];
+                const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                let currentRole = 0;
+
+                window.setInterval(() => {
+                    if (!prefersReducedMotion) {
+                        roleText.classList.add('fade');
+                    }
+
+                    window.setTimeout(() => {
+                        currentRole = (currentRole + 1) % roles.length;
+                        roleText.textContent = roles[currentRole];
+                        roleText.classList.remove('fade');
+                    }, prefersReducedMotion ? 0 : 400);
+                }, 3000);
+            })();
+
+        </script>
+
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -83,6 +111,7 @@
             crossorigin="anonymous"
         ></script>
         <script src="assets/js/navbar.js" defer></script>
-        <script src="assets/js/chatbot.js" defer></script>
+        <script src="assets/js/hero-role.js" defer></script>
+        <script src="assets/js/assistant.js" defer></script>
     </body>
 </html>

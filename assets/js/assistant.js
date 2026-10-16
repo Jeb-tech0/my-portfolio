@@ -48,7 +48,7 @@
         typing.classList.add('chatbot-message--typing');
 
         try {
-            const response = await fetch('chatbot.php', {
+            const response = await fetch('reply.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                 body: JSON.stringify({ message: messageText })
