@@ -50,7 +50,7 @@ include 'includes/navbar.php';
             <div class="row align-items-center g-5">
                 <div class="col-lg-5">
                     <div class="about-photo-wrap">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80" alt="About me" />
+                        <img src="assets/images/about1.jpeg" alt="About me" />
                     </div>
                 </div>
 
@@ -78,7 +78,15 @@ include 'includes/navbar.php';
                                     <li><strong>Graphic Designer</strong> — Creative Digital Services (2021 – 2023)</li>
                                     <li><strong>IT Support / Networking Assistant</strong> — Technical Support Roles (2019 – 2022)</li>
                                 </ul>
+
+                                <h3 class="mt-5">Work History</h3>
+                                <ul>
+                                    <li><strong>Web Developer</strong> — Freelance / Client Projects (2022 – Present)</li>
+                                    <li><strong>Graphic Designer</strong> — Creative Digital Services (2021 – 2023)</li>
+                                    <li><strong>IT Support / Networking Assistant</strong> — Technical Support Roles (2019 – 2022)</li>
+                                </ul>
                             </div>
+                            
                         </div>
 
                         <div class="col-md-6">

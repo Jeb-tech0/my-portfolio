@@ -6,6 +6,13 @@
                 scroll-behavior: smooth; 
                 scroll-padding-top: 80px;
             }
+ 
+            h3 {
+                padding: 0.55em 0.75em;
+                border-radius: 0.55rem;
+                background: linear-gradient(135deg, #075bb5 0%, #117a6b 100%);
+                color: #fff;
+            }
 
             .portfolio-navbar {
                 position: sticky;
@@ -150,17 +157,17 @@
             }
 
             .hero-slide.slide-1 {
-                background-image: linear-gradient(90deg, rgba(10, 92, 255, 0.55), rgba(16, 51, 122, 0.35)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80');
+                background-image: linear-gradient(90deg, rgba(10, 92, 255, 0.55), rgba(16, 51, 122, 0.35)), url('../images/Slide1.jpeg');
                 animation-delay: 0s;
             }
 
             .hero-slide.slide-2 {
-                background-image: linear-gradient(90deg, rgba(10, 92, 255, 0.58), rgba(20, 163, 112, 0.38)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80');
+                background-image: linear-gradient(90deg, rgba(10, 92, 255, 0.58), rgba(20, 163, 112, 0.38)), url('../images/Slide2.jpeg');
                 animation-delay: 6s;
             }
 
             .hero-slide.slide-3 {
-                background-image: linear-gradient(90deg, rgba(10, 92, 255, 0.60), rgba(21, 160, 94, 0.40)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80');
+                background-image: linear-gradient(90deg, rgba(10, 92, 255, 0.60), rgba(21, 160, 94, 0.40)), url('../images/Slide3.jpeg');
                 animation-delay: 12s;
             }
 
@@ -319,7 +326,6 @@
 
             .info-card h3 {
                 font-size: 1.2rem;
-                color: #11213a;
                 margin-bottom: 14px;
             }
 
@@ -392,7 +398,6 @@
 
             .project-body h3 {
                 font-size: 1.4rem;
-                color: #11213a;
                 margin-bottom: 12px;
             }
 
@@ -506,7 +511,6 @@
 
             .service-card h3 {
                 font-size: 1.35rem;
-                color: #11213a;
                 margin-bottom: 12px;
             }
 
@@ -558,7 +562,6 @@
             }
 
             .contact-details h3 {
-                color: #fff;
                 font-size: 1.5rem;
                 margin-bottom: 10px;
             }

@@ -75,7 +75,7 @@
                 <span class="chatbot-launcher-label">Chat with me</span>
             </button>
         </div>
-
+        
         <script> 
 
             (() => {
